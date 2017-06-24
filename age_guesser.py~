@@ -51,8 +51,8 @@ def guess_age(react_age_factor):
     if react_age_factor <= 0:
         raise ValueError('react_age_factor must be greater then zero!')
     
-    min_sleep = 4
-    max_sleep = 9
+    min_sleep = 5
+    max_sleep = 10
     t_react = get_reaction_time(min_sleep, max_sleep)
     guessed_age = t_react * react_age_factor
 
