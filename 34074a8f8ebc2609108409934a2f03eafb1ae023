@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "5525eef8_27dc827e",
+        "filename": "age_guesser.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 15,
+      "author": {
+        "id": 1011577
+      },
+      "writtenOn": "2017-06-24T13:20:00Z",
+      "side": 1,
+      "message": "comment makes no sense",
+      "range": {
+        "startLine": 15,
+        "startChar": 7,
+        "endLine": 15,
+        "endChar": 10
+      },
+      "revId": "34074a8f8ebc2609108409934a2f03eafb1ae023",
+      "serverId": "d5d70762-12d0-45a1-890d-524b12d3f735",
+      "unresolved": false
+    }
+  ]
+}
