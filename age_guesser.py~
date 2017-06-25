@@ -12,6 +12,7 @@ def sleep_rand_time(min_sleep, max_sleep):
 
 def print_press_key_message():
     """
+	print key message
     """
     print "Press key as fast as possible"
 

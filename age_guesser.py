@@ -11,22 +11,18 @@ def sleep_rand_time(min_sleep, max_sleep):
     
 
 def print_press_key_message():
-    """
-	print key message
-    """
+
     print "Press key as fast as possible"
 
 
 def print_event_after_rand_time(min_sleep, max_sleep):
-    """
-    """
+
     sleep_rand_time(min_sleep, max_sleep)
     print_press_key_message()
 
 
 def get_time_until_input():
-    """
-    """
+
     t_start = time.time()
     raw_input()
     reaction_time = time.time() - t_start
@@ -34,8 +30,7 @@ def get_time_until_input():
 
 
 def get_reaction_time(min_sleep, max_sleep):
-    """
-    """
+
     print_event_after_rand_time(min_sleep, max_sleep)
     t_react = get_time_until_input()
 
@@ -43,8 +38,6 @@ def get_reaction_time(min_sleep, max_sleep):
 
 
 def guess_age(react_age_factor):
-    """
-    """
 
     if not isinstance(react_age_factor, (int, long, float)):
         raise TypeError('react_age_factor must be a number!')
