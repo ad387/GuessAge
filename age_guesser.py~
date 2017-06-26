@@ -55,7 +55,7 @@ def guess_age(react_age_factor):
 
 if __name__ == "__main__":
 
-    react_age_factor = 100
+    react_age_factor = 90
     
     guessed_age = guess_age(react_age_factor)
 
