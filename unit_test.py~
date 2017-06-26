@@ -11,7 +11,7 @@ class TestStringMethods(unittest.TestCase):
         age_guesser.get_reaction_time = MagicMock(return_value=0.5)
         
         # test with valid inputs
-        inputs = [-100., 50., 30.]
+        inputs = [100., 50., 30.]
         expected_outputs = [50.0, 25.0, 15.]
         for i, eo in zip(inputs, expected_outputs):
             o = age_guesser.guess_age(i)
